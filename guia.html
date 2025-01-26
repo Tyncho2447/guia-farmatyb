@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guía de Procedimientos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 250px;
+            height: 100%;
+            background: #f4f4f4;
+            padding: 1rem;
+            overflow-y: auto;
+            border-right: 1px solid #ccc;
+        }
+
+        nav a {
+            display: block;
+            color: #333;
+            text-decoration: none;
+            margin: 0.5rem 0;
+            padding: 0.5rem;
+        }
+
+        nav a:hover {
+            background-color: #ddd;
+        }
+
+        main {
+            margin-left: 270px;
+            padding: 1rem;
+        }
+
+        section {
+            margin-bottom: 2rem;
+            padding: 1rem;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background: #fff;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #333;
+            color: white;
+            margin-top: 2rem;
+        }
+    </style>
+python -m http.server 8000
+
+</head>
+<body>
+    <header>
+        <h1>Guía de Procedimientos</h1>
+    </header>
+
+    <nav>
+        <h2>Índice</h2>
+        <a href="#apertura-cierre">1. Apertura y Cierre de la Sucursal</a>
+        <a href="#recepcion-control">2. Recepción-Control de Mercadería</a>
+        <a href="#carga-facturas">3. Carga de Facturas</a>
+        <a href="#crear-farmatyb">4. Crear: Farmatyb de su Sucursal</a>
+        <a href="#reclamos">5. Reclamos</a>
+        <a href="#devoluciones">6. Devoluciones</a>
+        <a href="#vencidos-dds">7. Devolución Mensual de Vencidos a DDS</a>
+        <a href="#baja-inventario">8. Baja de Productos del Inventario</a>
+        <a href="#reposicion">9. Reposición</a>
+        <a href="#etiquetas-precios">10. Etiquetas de Precios</a>
+        <a href="#drive-stock">11. Drive de Control de Stock</a>
+        <a href="#facturacion">12. Facturación-Métodos de Pago</a>
+        <a href="#bonos-dermo">13. Bonos Dermo</a>
+        <a href="#obras-sociales">14. Obras Sociales</a>
+        <a href="#mix-esencial">15. Mix Esencial-Compra</a>
+        <a href="#pedido-sugerido">16. Armar Pedido Sugerido</a>
+        <a href="#subir-pedido">17. Subir Archivo de Pedido Sugerido</a>
+        <a href="#limpieza-pedidos">18. Limpieza de Pedidos Pendientes y Activos</a>
+        <a href="#stock-sucursal">19. Generar y Subir Archivo de Stock de su Sucursal</a>
+    </nav>
+
+    <main>
+        <section id="apertura-cierre">
+            <h2>1. Apertura y Cierre de la Sucursal</h2>
+            <p>procedimientos desde que abrimos, hasta el cierre de la farmacia.</p>
+        </section>
+
+        <section id="recepcion-control">
+            <h2>2. Recepción-Control de Mercadería</h2>
+            <p>Instrucciones para la recepción y control de la mercadería recibida.</p>
+        </section>
+
+        <section id="carga-facturas">
+            <h2>3. Carga de Facturas</h2>
+            <p>Pasos para cargar facturas en el sistema.</p>
+        </section>
+
+        <section id="crear-farmatyb">
+            <h2>4. Crear: Farmatyb de su Sucursal</h2>
+            <p>Procedimiento para crear el sistema Farmatyb.</p>
+        </section>
+
+        <section id="reclamos">
+            <h2>5. Reclamos</h2>
+            <p>Guía para realizar reclamos efectivos.</p>
+        </section>
+
+        <section id="devoluciones">
+            <h2>6. Devoluciones</h2>
+            <p>Pasos para realizar devoluciones de productos.</p>
+        </section>
+
+        <section id="vencidos-dds">
+            <h2>7. Devolución Mensual de Vencidos a DDS</h2>
+            <p>Proceso para devolver productos vencidos a DDS.</p>
+        </section>
+
+        <section id="baja-inventario">
+            <h2>8. Baja de Productos del Inventario</h2>
+            <p>Cómo dar de baja productos del inventario.</p>
+        </section>
+
+        <section id="reposicion">
+            <h2>9. Reposición</h2>
+            <p>Pasos para la reposición de stock.</p>
+        </section>
+
+        <section id="etiquetas-precios">
+            <h2>10. Etiquetas de Precios</h2>
+            <p>Instrucciones para generar etiquetas de precios.</p>
+        </section>
+
+        <section id="drive-stock">
+            <h2>11. Drive de Control de Stock</h2>
+            <p>Uso del drive para el control de stock.</p>
+        </section>
+
+        <section id="facturacion">
+            <h2>12. Facturación-Métodos de Pago</h2>
+            <p>Opciones de facturación y métodos de pago aceptados.</p>
+        </section>
+
+        <section id="bonos-dermo">
+            <h2>13. Bonos Dermo</h2>
+            <p>Gestión de bonos dermo.</p>
+        </section>
+
+        <section id="obras-sociales">
+            <h2>14. Obras Sociales</h2>
+            <p>Procedimientos específicos para:</p>
+            <ul>
+                <li>IOSFA</li>
+                <li>IASEP</li>
+                <li>Mutual Policial</li>
+            </ul>
+        </section>
+
+        <section id="mix-esencial">
+            <h2>15. Mix Esencial-Compra</h2>
+            <p>Guía para realizar compras de Mix Esencial.</p>
+        </section>
+
+        <section id="pedido-sugerido">
+            <h2>16. Armar Pedido Sugerido</h2>
+            <p>Instrucciones para armar un pedido sugerido.</p>
+        </section>
+
+        <section id="subir-pedido">
+            <h2>17. Subir Archivo de Pedido Sugerido</h2>
+            <p>Pasos para subir el archivo de un pedido sugerido.</p>
+        </section>
+
+        <section id="limpieza-pedidos">
+            <h2>18. Limpieza de Pedidos Pendientes y Activos</h2>
+            <p>Cómo limpiar pedidos pendientes y activos.</p>
+        </section>
+
+        <section id="stock-sucursal">
+            <h2>19. Generar y Subir Archivo de Stock de su Sucursal</h2>
+            <p>Procedimiento para generar y subir el archivo de stock.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Guía de Procedimientos</p>
+    </footer>
+</body>
+</html>
